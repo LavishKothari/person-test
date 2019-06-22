@@ -30,4 +30,8 @@ public class Person {
     public int hashCode() {
         return Objects.hash(name, age);
     }
+
+    public void display() {
+        System.out.println("this is a dummy display method");
+    }
 }
